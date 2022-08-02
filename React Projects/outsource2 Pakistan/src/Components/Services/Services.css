@@ -1,0 +1,21 @@
+.Services_container{
+    width: 100%;
+    padding: 4rem 4rem;
+}
+.card{
+    width: 33%;
+    height: 50vh;
+    border: 1px solid #bebaba;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
