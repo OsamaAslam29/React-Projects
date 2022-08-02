@@ -6,13 +6,15 @@ import React from "react";
 import Footer from './Components/Footer/Footer';
 import Design from './Components/Design/Design';
 import Button from './Components/Atoms/Button/Button';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
     <>
       {/* <Navbar/>
       <Footer/> */}
-      <Home/>
+      {/* <Home/> */}
+      <Services/>
     </>
   );
 }
