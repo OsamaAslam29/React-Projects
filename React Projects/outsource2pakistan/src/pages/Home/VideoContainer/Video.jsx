@@ -1,12 +1,9 @@
 import React from 'react'
-import './Home.css'
-import Navbar from '../../Components/Navbar/Navbar'
+import './video.css'
 
-export default function Home() {
+const Video = () => {
   return (
-    <div className='home_page'>
-      <div className="nav_component"> <Navbar /></div>
-      <div className="video_container">
+    <div className="video_container">
         <div className="video_info">
           <div className="home_heading">BUSINESS PROCESS<br />OUTSOURCING SERVICES TO INDIA</div>
           <div className="home_para">
@@ -25,9 +22,7 @@ export default function Home() {
           </div>
         </div> 
       </div>
-
-
-
-    </div>
   )
 }
+
+export default Video

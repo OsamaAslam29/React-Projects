@@ -1,0 +1,22 @@
+.Working_Container{
+    width: 100%;
+    height: 70vh;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 2rem;
+}
+.working_cards{
+    display: flex;
+}
+.working_heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+.working_para{
+    font-size: 17px;
+    font-weight: 100;
+}
