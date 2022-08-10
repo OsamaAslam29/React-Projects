@@ -1,5 +1,5 @@
 import React from 'react'
-import './Working.css'
+import './Working.scss'
 import image1 from '../../../Assets/Page-1/Mask-1.png'
 import image2 from '../../../Assets/Page-1/Mask-2.png'
 import image3 from '../../../Assets/Page-1/Mask-3.png'
@@ -21,7 +21,7 @@ const Working = () => {
                     <div className="card_para">Customer Fills Up The Inquiry<br />Form And Receives A Call Or<br />Email From The Sales Team</div>
                     </div>
                 
-                {/* <div className="wd-card">
+                <div className="wd-card">
                     <img src={image2} alt="Error" />
                     <div className="card_heading">Requirement Analysis</div>
                     <div className="card_para">Requirement analysis,<br />ballpark estimate, approval,<br />execute pilot project</div>
@@ -40,7 +40,7 @@ const Working = () => {
                     <img src={image5} alt="Error" />
                     <div className="card_heading">Project Steady State</div>
                     <div className="card_para">Project execution &<br />management, on-going<br />reporting & feedback</div>
-                </div> */}
+                </div> 
 
             </div>
 

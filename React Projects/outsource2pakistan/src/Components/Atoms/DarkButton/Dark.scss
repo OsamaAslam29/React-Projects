@@ -1,0 +1,19 @@
+.dark_button button{
+    padding: 10px 33px;
+    border: none;
+    border-radius: 2px;
+    background: rgba(0, 122, 116, 1);
+    box-shadow: 1px 1px 6px rgba(0, 122, 116, 1);
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 1070px) {
+    .dark_button button{
+        padding: 9px 28px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .dark_button button{
+        padding: 5px 10px;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Light from '../../../Components/Atoms/LightButton/Light'
-import './Find.css'
+import './Find.scss'
 
 const Find = () => {
   return (

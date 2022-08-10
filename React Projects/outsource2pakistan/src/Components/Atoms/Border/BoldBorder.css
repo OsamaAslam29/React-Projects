@@ -1,0 +1,7 @@
+.bold_border{margin-top: 5px;
+    height: 6px;
+    width: 70px;
+    margin: auto;
+    border: 4px solid  #007A74;
+    border-radius: 10px;
+}

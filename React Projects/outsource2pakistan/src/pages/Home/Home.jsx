@@ -1,20 +1,26 @@
 import React from 'react'
-import Footer from '../../Components/Footer/Footer'
-import Navbar from '../../Components/Nabvar/Navbar'
+import Achievements from './Achievements/Achievements'
 import Contact from './Contact/Contact'
+import Customer from './Customer/Customer'
 import Find from './Find/Find'
+import SliderComponent from './Slider/SliderComponent'
+import Testimonials from './Testimonials/Testimonials'
 import Video from './VideoContainer/Video'
 import Working from './Working/Working'
+import BoldBorder from '../../Components/Atoms/Border/BoldBorder';
 
 const Home = () => {
   return (
     <>
-    {/* <Navbar/> */}
-     <Find/>
-     {/* <Video/> */}
+     <SliderComponent/>
+     <Video/>
      <Working/>
-     {/* <Contact/> */}
-     {/* <Footer/> */}
+     <Achievements/>     
+     <Customer/>
+     <BoldBorder/>
+     <Testimonials/>
+     <Find/>
+     <Contact/>
     </>
   )
 }

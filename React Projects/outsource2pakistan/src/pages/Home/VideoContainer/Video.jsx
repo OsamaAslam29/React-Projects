@@ -1,5 +1,5 @@
 import React from 'react'
-import './video.css'
+import './video.scss'
 
 const Video = () => {
   return (
@@ -16,11 +16,11 @@ const Video = () => {
             With Over 22 Years Of Experience In 167 Plus Countries, Our Skilled Resources And Cutting-<br />Edge Tech Solutions Are Part Of Numerous Global Success Stories. We Have Delivered A <br />Wide Variety Of Resources For Different Needs And Across Multiple Industries.
           </div>
         </div>
-         <div className="doted_border">
           <div className="video">
-     
+            <div className="doted_border"></div>
+          <iframe className="video__link" src="https://www.youtube.com/embed/orbkg5JH9C8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+
           </div>
-        </div> 
       </div>
   )
 }

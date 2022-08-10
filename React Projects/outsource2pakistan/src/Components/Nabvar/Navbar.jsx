@@ -1,9 +1,10 @@
 import React from 'react'
-import './Navbar.css'
+// import './Navbar.scss'
 import { RiSearchLine } from 'react-icons/ri';
 import { BsChevronCompactDown } from 'react-icons/bs';
 
 const Navbar = () => {
+    // eslint-disable-next-line 
   return (
     <div className='Nav_Container'>
     <div className="Navbar">

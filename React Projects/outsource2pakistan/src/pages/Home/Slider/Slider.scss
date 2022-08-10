@@ -1,0 +1,95 @@
+.slider_container {
+    .slider_box {
+        height: 100%;
+        background: linear-gradient(101.09deg, #004643 0%, #007A74 100%);
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        z-index: -1;
+
+        .img_box {
+            width: 20%;
+            height: 100%;
+            padding-top: 3rem;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .content_box {
+            display: flex;
+            flex-direction: column;
+            gap: .7rem;
+
+            p {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 600;
+                color: white;
+
+                span {
+                    color: rgba(45, 42, 50, 1);
+                    position: relative;
+                    padding: 0 1rem;
+
+                    img {
+                        position: absolute;
+                        width: 200px;
+                        left: 1px;
+                        top: -6px;
+                    }
+                }
+            }
+
+            .detail {
+                font-weight: normal;
+                font-size: 1.2rem;
+                margin: .5rem 0;
+            }
+
+            .input_box {
+                display: flex;
+                gap: .5rem;
+                padding: .5rem;
+                background-color: white;
+                margin: 0 1rem;
+
+                img {
+                    width: 20px;
+                    object-fit: cover;
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    color: rgba(0, 122, 116, 1);
+                    font-style: italic;
+                    width: 80%;
+                }
+            }
+
+            .skils {
+                display: flex;
+                gap: .5rem;
+                align-items: center;
+                margin: 0 1rem;
+
+                p {
+                    font-weight: bold;
+                    font-size: .9rem;
+                }
+
+                .s {
+                    font-weight: normal;
+                    border: 1px solid white;
+                    padding: .3rem;
+                    font-size: .6rem;
+                    border-radius: 50rem;
+                }
+            }
+        }
+    }
+}
