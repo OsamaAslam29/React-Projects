@@ -1,4 +1,25 @@
 .wrape_dashboard{
-    width: -webkit-fill-available;
     display: flex;
+    background: rgb(246, 249, 252);
+    width: -webkit-fill-available;
+}
+.dashboard{
+    padding: 0rem 0.9rem;
+}
+.card{
+    width: 15rem;
+    height: 8.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #ab4298;
+}
+.d_cards{
+    display: flex;
+    gap: 1.6rem;
+}
+
+
+// ********************** For Location Page ******************
+.location_page{
+    padding: 0rem 0.9rem;
 }

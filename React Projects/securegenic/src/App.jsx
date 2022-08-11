@@ -16,6 +16,7 @@ import Navbar from './Components/Navbar/Navbar'
 // import PrivacyPolicy from './Pages/PrivacyPolicy/Privacy'
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import DashBoard from './Pages/DashBoard/DashBoard';
+import Reports from './Pages/Reports/Reports';
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
        <Router>
     {/* ********* Navbar will always remain constant *********/}
        <Navbar/>
-       <DashBoard/>
+       {/* <DashBoard/> */}
+       {/* <Reports/> */}
     {/* ********* Pages of Secure Genic Website *********/}
     {/* <Switch>
           <Route exact path="/"><DashBoard /></Route>
