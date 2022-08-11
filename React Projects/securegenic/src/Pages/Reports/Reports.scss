@@ -10,12 +10,13 @@
 }
 .r-card{
     width: 28%;
-    padding: 15px;
+    padding: 13px;
     background: #fff;
     display: flex;
     align-items: center;
     border-radius: 10px;
     border: 1px solid rgb(204 204 204 / 68%);
+    position: relative;
 }
 .android_logo img{
     border: 1px solid #ccc;
@@ -24,5 +25,13 @@
     width: 22px;
 }
 .r_icon{
-    margin-left: 1rem;
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    font-size: 1.25rem;
+    color: #B5B5C3;
+}
+.r_content{
+    padding: 10px;
+
 }

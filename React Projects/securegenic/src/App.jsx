@@ -25,9 +25,9 @@ const App = () => {
        <Router>
     {/* ********* Navbar will always remain constant *********/}
        <Navbar/>
-       <Location/>
-       {/* <DashBoard/> */}
+       {/* <Location/> */}
        {/* <Reports/> */}
+       {/* <DashBoard/> */}
        <Utilities/>
     {/* ********* Pages of Secure Genic Website *********/}
     {/* <Switch>
