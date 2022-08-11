@@ -28,7 +28,7 @@ const App = () => {
        {/* <Location/> */}
        {/* <Reports/> */}
        {/* <DashBoard/> */}
-       <Utilities/>
+       {/* <Utilities/> */}
     {/* ********* Pages of Secure Genic Website *********/}
     {/* <Switch>
           <Route exact path="/"><DashBoard /></Route>
