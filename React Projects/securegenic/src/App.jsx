@@ -10,13 +10,14 @@ import Navbar from './Components/Navbar/Navbar'
 // import Device from './Pages/Devices/Device'
 // import Wifi from './Pages/WifiProfile/Wifi'
 // import Group from './Pages/Group/Group'
-// import Location from './Pages/Location/Location'
+import Location from './Pages/Location/Location'
 // import Utilities from './Pages/Utilities/Utilities'
 // import Reports from './Pages/Reports/Reports'
 // import PrivacyPolicy from './Pages/PrivacyPolicy/Privacy'
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import DashBoard from './Pages/DashBoard/DashBoard';
 import Reports from './Pages/Reports/Reports';
+import Utilities from './Pages/Utilities/Utilities';
 
 const App = () => {
   return (
@@ -24,8 +25,10 @@ const App = () => {
        <Router>
     {/* ********* Navbar will always remain constant *********/}
        <Navbar/>
+       <Location/>
        {/* <DashBoard/> */}
        {/* <Reports/> */}
+       <Utilities/>
     {/* ********* Pages of Secure Genic Website *********/}
     {/* <Switch>
           <Route exact path="/"><DashBoard /></Route>
