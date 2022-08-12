@@ -18,19 +18,15 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import DashBoard from './Pages/DashBoard/DashBoard';
 import Reports from './Pages/Reports/Reports';
 import Utilities from './Pages/Utilities/Utilities';
+import Home from './Pages/Home/Home';
 
 const App = () => {
   return (
     <>
        <Router>
-    {/* ********* Navbar will always remain constant *********/}
-       <Navbar/>
-       {/* <Location/> */}
-       {/* <Reports/> */}
-       {/* <DashBoard/> */}
-       {/* <Utilities/> */}
+   
     {/* ********* Pages of Secure Genic Website *********/}
-    {/* <Switch>
+    {/* 
           <Route exact path="/"><DashBoard /></Route>
           <Route path="/DeepDive"><DeepDive /></Route>
           <Route path="/EnrollDevices"><EnrollDevices /></Route>
@@ -44,11 +40,12 @@ const App = () => {
           <Route path="/DeviceHealth"><DeviceHealth /></Route>
           <Route path="/Reports"><Reports /></Route>
           <Route path="/PrivacyPolicy"><PrivacyPolicy /></Route>
-          
-    </Switch> */}
     {/* ********* There is no footer section in Secure Genic Website *********/}
-
+    <Switch>
+               <Route path="/" component={Home} />
+   </Switch>
        </Router>
+
     </>
   )
 }

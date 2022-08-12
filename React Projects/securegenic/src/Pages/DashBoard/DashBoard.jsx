@@ -7,11 +7,7 @@ import CardHeading from '../../Components/0-Atoms/CardHeading/CardHeading'
 
 const DashBoard = () => {
   return (
-    <div className='wrape_dashboard'>
-      <div className="aside_bar">
-            <Aside/>
-      </div>
-      
+    <div className='wrape_dashboard'>   
       <div className="dashboard">
         <Heading heading="Dashboard" para="View Status of devices and Application"/> 
          <div className="d_cards">

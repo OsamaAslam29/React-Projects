@@ -47,3 +47,9 @@
     .sidenav a:hover {
         color: #028cc9;
     }  
+
+    @media screen and (max-width: 990px){
+        .sidenav{
+            display: none;
+        }
+    }
